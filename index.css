@@ -1,1 +1,8 @@
 /* Add your CSS here. Utilize Tailwind classes or write custom styles to bring your unique design to life. */
+
+.container {
+  background-color: #ffffff;
+  height: 812px;
+  width: 400px;
+  border-radius: 40px;
+}
