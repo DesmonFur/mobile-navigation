@@ -6,11 +6,14 @@
     <script src="index.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BigDevSoon Challenge</title>
+    <title>Mobile Navigation</title>
 
     <!-- TailwindCSS for styling. Feel free to integrate other libraries as needed -->
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <script
+      src="https://kit.fontawesome.com/2660f0030c.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Add your external script links here, if any -->
   </head>
 
@@ -26,15 +29,33 @@
         </div>
       </header>
       <hr />
-      <div class="profile=settings">
+      <div class="profile-settings">
         <ul class="list-row-container">
-          <li class="list-row">Personal Data</li>
-          <li class="list-row">Messages</li>
-          <li class="list-row">Notifications</li>
-          <li class="list-row">Location</li>
-          <li class="list-row">Community</li>
-          <li class="list-row">FAQs</li>
-          <li class="list-row">Settings</li>
+          <li class="list-row">
+            <i class="fa-solid fa-user"></i> Personal Data
+            <i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li class="list-row">
+            <i class="fa-solid fa-envelope"></i> Messages
+            <i class="fa-solid fa-chevron-right"></i>
+          </i>
+          </li>
+          <li class="list-row"><i class="fa-solid fa-bell"></i>
+            Notifications <i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li class="list-row"><i class="fa-solid fa-location-dot"></i>
+            Location <i class="fa-solid fa-chevron-right"></i>
+          </li>
+          <li class="list-row"> <i class="fa-solid fa-users"></i>
+            Community <i class="fa-solid fa-chevron-right"></i>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="user-settings">
+        <ul class="list-row-container">
+          <li class="list-row"><i class="fa-solid fa-person-circle-question"></i>FAQs <i class="fa-solid fa-chevron-right"></i></li>
+          <li class="list-row"><i class="fa-solid fa-gears"></i>Settings<i class="fa-solid fa-chevron-right"></i></li>
         </ul>
       </div>
       <footer>

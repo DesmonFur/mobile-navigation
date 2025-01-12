@@ -39,3 +39,10 @@ header {
 .job-title {
   color: #0c031d;
 }
+
+.profile-settings {
+  margin-top: 32px;
+}
+
+.list-row-container {
+}
